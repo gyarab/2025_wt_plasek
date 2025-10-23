@@ -12,3 +12,7 @@ function handleSearchBarKeypress(event) {
 		window.location.href = `https://duckduckgo.com/?q=${document.querySelector('#search-bar-value').value}`;
 	}
 }
+
+function submitSearchButton() {
+	window.location.href = `https://duckduckgo.com/?q=${document.querySelector('#search-bar-value').value}`;
+}
