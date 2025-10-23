@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- CSS 'n stuff -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+		<link href="public/index.css" rel="stylesheet">
+		<link href="public/colors.css" rel="stylesheet">
+
+		<title>Home</title>
+	</head>
+	<body>
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light ">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active text-light" aria-current"page" href="/about.html">About</a>
+						<li class="nav-item">
+							<button class="nav-link active text-light" aria-current="page" data-bs-toggle="modal" data-bs-target="#exampleModal">Credits</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div id="content" class="bg d-flex flex-column align-items-center justify-content-center min-vh-100">
+			<div id="greeting">
+				<h1 class="text-body text-center">Welcome</h1>
+				<h2 id="date-text" class="text-body text-center">Today is {date}</h2>
+			</div>
+			<div id="search-bar" class="d-flex flex-row m-3">
+				<input id="search-bar-value" class="p-2 m-2 bg-dark text-light round-10" type="text" placeholder="Search..." onkeypress="handleSearchBarKeypress(event)" autofocus>
+				<input class="p-2 m-2 bg-dark text-light round-10" type="button" value="🔍">
+			</div>
+			<h2 class="m-3 text-body">Essentials</h2>
+			<div id="essentials" class="d-flex flex-row flex-wrap">
+				<!-- I abuse semantic color classes here because why bother making extra color classes -->
+				<a href="https://github.com" class="btn btn-dark m-2">GitHub</a>
+				<a href="https://youtube.com" class="btn btn-danger m-2">Youtube</a>
+				<a href="https://classroom.google.com" class="btn btn-success m-2">Google Classroom</a>
+				<a href="https://bakalari.gyarab.cz" class="btn btn-primary m-2">Bakaláři</a>
+				<a href="https://stackoverflow.com" class="btn btn-orange m-2">StackOverflow</a>
+			</div>
+
+			<!-- Credits modal -->
+			<div class="modal" id="exampleModal" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Credits</h5>
+						</div>
+						<div class="modal-body">
+							<p>This website has been made using:</p>
+							<ul>
+								<li><a href="https://getbootstrap.com">Bootstrap</a></li>
+								<li><a href="https://wallhaven.cc/w/1qpqrw">wallhaven.cc</a></li>
+							</ul>
+						</div>
+						<div class="modal-footer">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+		<script src="/public/index.js"></script>
+	</body>
+</html>
