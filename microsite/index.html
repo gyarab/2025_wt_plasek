@@ -6,10 +6,27 @@
 
 		<!-- CSS 'n stuff -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+		<style>
+			body {
+				background-image: url('https://w.wallhaven.cc/full/1q/wallhaven-1qpqrw.jpg');
+				background-size: cover;
+				box-shadow: inset 0 0 100px #000;
+			}
 
-		<link href="public/css/index.css" rel="stylesheet">
-		<link href="public/css/colors.css" rel="stylesheet">
+			.round-10 {
+				border-radius: 10px
+			}
 
+			.btn-orange {
+				background-color: #db721c;
+				color: #ffffff;
+			}
+
+			.btn-orange:hover {
+				background-color: #a85715;
+				color: #ffffff;
+			}
+		</style>
 		<title>Home</title>
 	</head>
 	<body>
@@ -108,6 +125,26 @@
 			</div>
 		</div>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-		<script src="/public/js/index.js"></script>
+		<script>
+
+			function updateDate() {
+			let dateText = document.getElementById('date-text');
+			let currDate = new Date();
+				dateText.textContent = `Today is ${currDate.getDay()}. ${currDate.getMonth()}. ${currDate.getFullYear()}, ${currDate.getHours()}:${currDate.getMinutes() < 10 ? '0' + currDate.getMinutes() : currDate.getMinutes()}`;
+			}
+
+			updateDate(); // run it once initially
+			setInterval(updateDate, 1000);
+
+			function handleSearchBarKeypress(event) {
+				if (event.keyCode == 13) {
+					window.location.href = `https://duckduckgo.com/?q=${document.querySelector('#search-bar-value').value}`;
+				}
+			}
+
+			function submitSearchButton() {
+				window.location.href = `https://duckduckgo.com/?q=${document.querySelector('#search-bar-value').value}`;
+			}
+		</script>
 	</body>
 </html>
