@@ -24,7 +24,7 @@
 							<a class="nav-link active text-light" aria-current="page" href="#">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active text-light" aria-current"page" href="/about.html">About</a>
+							<button class="nav-link active text-light" aria-current="page" data-bs-toggle="modal" data-bs-target="#aboutModal">About</button>
 						<li class="nav-item">
 							<button class="nav-link active text-light" aria-current="page" data-bs-toggle="modal" data-bs-target="#exampleModal">Credits</button>
 						</li>
@@ -67,6 +67,42 @@
 						</div>
 						<div class="modal-footer">
 						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal" id="aboutModal" tabindex="0" role="dialog">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">About</h5>
+						</div>
+					<div class="modal-body">
+						<p>
+							I was upset with Firefox's lack of easy customization of the home page.
+							Yes there's extensions, however, I wanted something that's truly my own.
+							That's why I felt it was necessary to write my own page instead of just learning
+							to write a Firefox theme. It'll be easier right? And it honestly kinda was.
+						</p>
+						<div class="d-flex flex-row mt-2">
+							<p class="text-wrap me-5" style="width: 128rem">
+								Now this website exists, and it's kinda good. I might actually use it as the homepage
+								for my browser. You can do it too, I don't really care. Should you have your own custom
+								home page? I dunno, do you want to spend time writing it? Do I want to spend time writing
+								this monologue? Why do we do anything? Why do we meet anyone? What is life? Someone help me figure out this conundrum!
+								Or should I? I don't know, I'm just a website!
+							</p>
+
+
+							<div class="card">
+								<img src="/public/img/homepageScreenshot.png" class="card-img-top" alt="Screenshot of the webpage">
+								<div class="card-body bg-dark">
+									<h5 class="card-title text-light">Try it yourself!</h5>
+									<p class="card-text text-light">Have a quick look and see if the homepage is right for you.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div class="modal-footer">
 					</div>
 				</div>
 			</div>
