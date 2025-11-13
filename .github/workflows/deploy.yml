@@ -21,7 +21,7 @@ jobs:
       - name: Upload microsite folder
         uses: actions/upload-pages-artifact@v3
         with:
-          path: /microsite  # 👈 this is your folder
+          path: ./microsite  # 👈 this is your folder
 
       - name: Deploy to GitHub Pages
         id: deployment
