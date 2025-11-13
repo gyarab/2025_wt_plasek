@@ -1,8 +1,14 @@
 name: Deploy microsite to GitHub pages
-on: [workflow_dispatch, push]
+on:
   push:
     paths:
-      - "microsite/**"  
+      - "microsite/**"
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: string
+        default: foo
+        required: true  
 jobs:
   deploy:
     permissions:
