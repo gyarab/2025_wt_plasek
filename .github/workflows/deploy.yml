@@ -1,5 +1,5 @@
 name: Deploy microsite to GitHub pages
-on: workflow_dispatch
+on: [workflow_dispatch]
 jobs:
   deploy:
     permissions:
