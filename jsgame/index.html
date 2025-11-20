@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="public/css/index.css" rel="stylesheet">
+		<title>JS Game</title>
+	</head>
+	<body>
+		<div class="div-center" id="content">
+			<div id="title">
+				<h1>JS Game</h1>
+			</div>
+			<div id="description">
+				<p>Guess a number from 1 to 20!</p>
+				<div class="div-center" id="game-main-buttons">
+					<input type="button" id="newGameBtn" value="New Game">
+					<div class="flex-row" id="hard-mode">
+						<input type="checkbox" id="isHardMode">
+						<p>Hard mode</p>
+					</div>
+				</div>
+			</div>
+			<div id="game-content">
+				<div id="game-input">
+				<div id="attempt-count">
+					<p>
+						Attempt count: <span id="attempts">0</span>
+					</p>
+				</div>
+			</div>
+			<script src="public/js/game.js"></script>
+		</div>
+	</body>
+</html>
