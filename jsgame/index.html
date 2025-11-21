@@ -161,13 +161,12 @@
 					document.querySelector('#attempts').innerText = attempts;
 					document.querySelector('#isHardMode').disabled = true;
 
-					if (document.querySelector('#success-text') || document.querySelector('#fail-text')) {
-						try {
-							document.querySelector('#success-text').remove();
-							document.querySelector('#fail-text').remove();
-						} catch (err) {
-							console.log(err);
-						}
+					if (document.querySelector('#success-text')) {
+						document.querySelector('#success-text').remove();
+					}
+
+					if (document.querySelector('#fail-text')) {
+						document.querySelector('#fail-text').remove();
 					}
 
 					if ((document.querySelector('#guess') || document.querySelector('#guessBtn')) == null) {
