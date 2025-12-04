@@ -5,8 +5,8 @@
 </p>
 
 Bandcamp je distribuční platforma pro hudbu založená v roce 2008 Ethanem Diamondem a jeho kamarády.
-Specializuje se vůči independentním umělcům/vydavatelstvím se svým "direct-to-fan" modelem spočívající v tom, že
-posluchač platí přímo umělci (Bandcamp si z každé transakce bere 10%.) za jejich dílo buď stáhnutelné
+Specializuje se vůči independentním umělcům/vydavatelstvím pomocí "direct-to-fan" business modelu spočívající
+v tom, že posluchač platí přímo umělci (Bandcamp si z každé transakce bere 10%.) za jejich dílo buď stáhnutelné
 ve formátech jako WAV, FLAC, MP3 (320 kbps), atd. nebo streamovatelné na platformě.
 
 ## Rozbor loga
@@ -14,7 +14,7 @@ ve formátech jako WAV, FLAC, MP3 (320 kbps), atd. nebo streamovatelné na platf
 Bandcamp má několik variací jejich loga, ale rozebrané logo je logo jejich Android aplikace. (modrý lichoběžník na bílém pozadí)
 
 Modrá v logu reprezentuje důvěryhodnost a sílu, což souhlasí s mentalitou platformy: "Umělec by měl být
-ten s mocí nad svým dílem, a kolekce hudby poslucače je jeho, vždy byla, a navždy bude. Svoji kolekci
+ten s mocí nad svým dílem, a kolekce hudby poslucače je jejich, vždy byla, a navždy bude. Svoji kolekci
 by měli moct poslouchat i mimo naši platformu."
 
 
