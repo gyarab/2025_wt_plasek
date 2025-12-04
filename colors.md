@@ -11,7 +11,7 @@ ve formátech jako WAV, FLAC, MP3 (320 kbps), atd. nebo streamovatelné na platf
 
 ## Rozbor loga
 
-Bandcamp má několik variací jejich loga, ale nejčastější je modrý lichoběžník na bílém pozadí.
+Bandcamp má několik variací jejich loga, ale rozebrané logo je logo jejich Android aplikace. (modrý lichoběžník na bílém pozadí)
 
 Modrá v logu reprezentuje důvěryhodnost a sílu, což souhlasí s mentalitou platformy: "Umělec by měl být
 ten s mocí nad svým dílem, a kolekce hudby poslucače je jeho, vždy byla, a navždy bude. Svoji kolekci
