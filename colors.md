@@ -11,8 +11,10 @@ ve formátech jako WAV, FLAC, MP3 (320 kbps), atd. nebo streamovatelné na platf
 
 Bandcamp má několik variací jejich loga, ale nejčastější je bílý lichoběžník na světle modrém pozadí.
 
-Modrá v logu reprezentuje důvěryhodnost a sílu, což souhlasí s mentalitou platformy: "Vaše kolekce
-hudby je vaše, vždy byla a navždy bude. Můžete vaši kolekci poslouchat i mimo naši platformu."
+Modrá v logu reprezentuje důvěryhodnost a sílu, což souhlasí s mentalitou platformy: "Umělec by měl být
+ten s mocí nad svým dílem, a kolekce hudby poslucače je jeho, vždy byla, a navždy bude. Svoji kolekci
+by měli moct poslouchat i mimo naši platformu."
+
 
 Bílá barva lichoběžníku může znamenat klid od korporátních vydavatelů hudby a založení "hudební ekonomie" 
 založené na přímem kontaktu umělce s posluchači. Hudební průmysl v době tvoření loga Bandcampu procházel
