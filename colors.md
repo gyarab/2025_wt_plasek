@@ -21,4 +21,4 @@ by měli moct poslouchat i mimo naši platformu."
 Bílá barva v logu může znamenat klid od korporátních vydavatelů hudby a založení "hudební ekonomie" 
 založené na přímem kontaktu umělce s posluchači. Hudební průmysl v době tvoření loga Bandcampu procházel
 dramatickou změnou, kde umělci a posluchači měli víc a víc plné zuby chamtivých vydavatelů jako UMG, EMI
-nebo Sony, kteří neférově vydělávali z dřiny umělců.
+nebo Sony, kteří neférově vydělávají z dřiny umělců.
