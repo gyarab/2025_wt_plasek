@@ -1,6 +1,7 @@
 # Bandcamp
 
-<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2021%2F02%2FBandCamp-Emblem.png&f=1&nofb=1&ipt=4a7f4f6305a575759038bd71621a43f2494587aaed8d6dc3f293eb64dbd5d435">
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2021%2F02%2FBandCamp-Emblem.png&f=1&nofb=1&ipt=4a7f4f6305a575759038bd71621a43f2494587aaed8d6dc3f293eb64dbd5d435" width="640">
+
 
 Bandcamp je distribuční platforma pro hudbu založená v roce 2008 Ethanem Diamondem a jeho kamarády.
 Specializuje se vůči independentním umělcům/vydavatelstvím se svým "direct-to-fan" modelem spočívající v tom, že
