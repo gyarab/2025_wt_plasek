@@ -1,7 +1,7 @@
 # Bandcamp
 
 <p align="center">
-	<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogowik.com%2Fcontent%2Fuploads%2Fimages%2Fbandcamp-button-circle9381.logowik.com.webp&f=1&nofb=1&ipt=e23a6b7415cfdf43f3aa982a66666df12c44a4bcb08c264408713c871994e269" width="480">
+	<img src="https://play-lh.googleusercontent.com/bShqpc5_RKyKRzOx1c4rWBhrhDXAM-TgmAz1eZNSme6bIbdrmPjSoxzdBLejeXsawMQ=w480-h960" width="480">
 </p>
 
 Bandcamp je distribuční platforma pro hudbu založená v roce 2008 Ethanem Diamondem a jeho kamarády.
@@ -11,14 +11,14 @@ ve formátech jako WAV, FLAC, MP3 (320 kbps), atd. nebo streamovatelné na platf
 
 ## Rozbor loga
 
-Bandcamp má několik variací jejich loga, ale nejčastější je bílý lichoběžník na světle modrém pozadí.
+Bandcamp má několik variací jejich loga, ale nejčastější je modrý lichoběžník na bílém pozadí.
 
 Modrá v logu reprezentuje důvěryhodnost a sílu, což souhlasí s mentalitou platformy: "Umělec by měl být
 ten s mocí nad svým dílem, a kolekce hudby poslucače je jeho, vždy byla, a navždy bude. Svoji kolekci
 by měli moct poslouchat i mimo naši platformu."
 
 
-Bílá barva lichoběžníku může znamenat klid od korporátních vydavatelů hudby a založení "hudební ekonomie" 
+Bílá barva v logu může znamenat klid od korporátních vydavatelů hudby a založení "hudební ekonomie" 
 založené na přímem kontaktu umělce s posluchači. Hudební průmysl v době tvoření loga Bandcampu procházel
 dramatickou změnou, kde umělci a posluchači měli víc a víc plné zuby chamtivých vydavatelů jako UMG, EMI
 nebo Sony, kteří neférově vydělávali z dřiny umělců.
