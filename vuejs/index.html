@@ -1,55 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-		<title>VueJS</title>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Meziplanetární výlet</title>
+	    <link rel="icon" href="./favicon.ico">
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 	</head>
 	<body>
-		<div id="container">
-			<h1>VueJS</h1>
-			<a href="https://vuejs.org/guide/introduction" target="_blank">VueJS Docs</a>
-			<div id="app">
-				<div class="card d-flex justify-content-center">
-					<form>
-						<div>
-							<input class="form-control" type="text" id="name" name="name">
-						</div>
-						<div>
-							<select class="form-select" name="planet">
-								<option value="Mars">Mars</option>
-								<option value="Venuše">Venuše</option>
+	    <div class="container pt-5" style="max-width: 600px; padding-bottom: 400px;">
+	        <h1 class="text-center my-3">Registrace na meziplanetární výlet</h1>
+		    <div id="app">
+			    <div class="card p-4 mb-3">
+				    <form>
+					    <div class="mb-3">
+						    <label for="name">Jméno astronauta</label>
+	                        <input class="form-control" type="text" id="name" name="name">
+		                </div>
+			            <div class="mb-3">
+				            <label for="planet">Destinace</label>
+					        <select class="form-select" id="planet" name="planet">
+								<option disabled value="">...</option>
+			                    <option value="Mars">Mars</option>
+		                        <option value="Měsíc">Měsíc</option>
+	                            <option value="Jupiter">Jupiter</option>
+								<option value="Pluto">Pluto</option>
 							</select>
-						</div>
-						<div>
+						 </div>
+					    <div class="mb-3">
+							 <label for="days">Počet dní</label>
 							<input class="form-control" type="number" id="days" name="days">
-						</div>
-						<div>
-							<input class="form-input-check" type="checkbox" id="terms">
-							<label class="form-check-label" for="terms">Souhlasím s podmínkami</label>
-						</div>
-						<button type="submit">Odeslat</button>
-					</form>
-				</div>
-			</div>
-		</div>
+	                    </div>
+		                <div class="mb-3">
+			                <input class="form-check-input" type="checkbox" id="terms">
+				            <label class="form-check-label" for="terms">Souhlasím s podmínkami</label>
+	                    </div>
+		                <div class="pb-3">
+			                <button class="btn btn-primary w-100" :disabled="!isValid" type="submit">Odeslat</button>
+		                </div>
+	                    <p class="text-muted">
+			                Tento formulář není sdílen s třetími stranami.
+					    </p>
+				    </form>
+	            </div>
+			    <div class="card p-3">
+		            <h2>Palubní lístek</h2>
+	                <p>
+						Jméno: <strong>John Vue.js</strong><br>
+					    Destinace: <strong>Pluto</strong><br>
+				        Počet dní: <strong>365</strong><br>
+			            Odhadovaná cena: <strong>32767 kreditů</strong>
+		            </p>
+	                <p class="text-muted">
+					    Lístek je možno změnit po odeslání prvního lístku.
+				    </p>
+			    </div>
+		    </div>
+	    </div>
 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-		<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+	    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
-		<script>
-			const { createApp, ref } = Vue;
-
-			const app = createApp({
+			<script>
+				const app = Vue.createApp({
 				data() {
 					return {
-						message: "Hello World!"
+						message: "Hello World!",
+						count: 0,
+						trip: {
+							name: "",
+							destination: "",
+							days: 1,
+							accepted: false,
+						}
+
+					}
+				},
+				computed: {
+					isValid() {
+						return true
 					}
 				}
-			});
+			})
 
-			app.mount('#app');
+			app.mount('#app')
+
 		</script>
 	</body>
 </html>
